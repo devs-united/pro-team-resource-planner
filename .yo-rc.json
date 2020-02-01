@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "hr.proteam"
+    },
+    "jhipsterVersion": "6.5.0",
+    "applicationType": "monolith",
+    "baseName": "pro_team_resource_planner",
+    "packageName": "hr.proteam",
+    "packageFolder": "hr/proteam",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjU2Yjk5YzNlYzdkNjBkYzE5NmE3MzE4M2Y5Mjc2ZWU1ODIwMjUxYzk4NTNkYWNlYmU0NTYyNmFjNmFmZjVhM2RlNWE5Yzk2Mjg3ZmRjZTdmNTUyNGE0MDNlNjkyZjAzYjNiMTc1MDBhYzFjMmI1MDhhODI1NTBlYjBjMzZjZWI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "materia",
+    "clientThemeVariant": "light",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
