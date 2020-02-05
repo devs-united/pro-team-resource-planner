@@ -42,6 +42,9 @@ public class CacheConfiguration {
             createCache(cm, hr.proteam.domain.User.class.getName());
             createCache(cm, hr.proteam.domain.Authority.class.getName());
             createCache(cm, hr.proteam.domain.User.class.getName() + ".authorities");
+            createCache(cm, hr.proteam.domain.Address.class.getName());
+            createCache(cm, hr.proteam.domain.Employee.class.getName());
+            createCache(cm, hr.proteam.domain.Project.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
